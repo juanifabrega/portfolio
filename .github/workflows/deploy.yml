@@ -30,4 +30,4 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
-          npm run ng -- deploy --repo=https://github.com/juanifabrega/portfolio-angular.git --name="juanifabrega" --email="juanifabrega1997@gmail.com" --base-href=/portfolio-angular/
+          npm run ng -- deploy --repo=https://github.com/juanifabrega/portfolio.git --name="juanifabrega" --email="juanifabrega1997@gmail.com" --base-href=/portfolio/
