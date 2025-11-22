@@ -1,8 +1,9 @@
 import { Component } from '@angular/core';
+import { TranslocoModule } from '@ngneat/transloco';
 
 @Component({
   selector: 'app-skills',
-  imports: [],
+  imports: [TranslocoModule],
   templateUrl: './skills.component.html',
   styleUrl: './skills.component.css'
 })

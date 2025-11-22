@@ -1,0 +1,68 @@
+{
+  "header": {
+    "home": "Inicio",
+    "experience": "Experiencia",
+    "projects": "Proyectos",
+    "skills": "Habilidades",
+    "certificates": "Certificados",
+    "contact": "Contacto"
+  },
+  "profile": {
+    "name": "Juan Fabrega",
+    "work": "Desarrollador de software",
+    "p1": "Full-Stack Developer con experiencia en Angular, Java, Quarkus y Spring Boot. Desarrollo soluciones enfocadas en escalabilidad, mantenibilidad y rendimiento, aplicando buenas prácticas de arquitectura y trabajo ágil",
+    "p2": "Trabajo con SQL, CI/CD, testing y herramientas modernas para asegurar calidad en cada etapa del desarrollo.",
+    "dowloand": "Descargar CV",
+    "linkCV": "https://drive.google.com/file/d/1NtuEiHW3pabglruywHUNedkNaP6Pa7RG/view?usp=sharing"
+  },
+  "experience": {
+    "experience": "Experiencia",
+    "work2time": "Noviembre 2022 - Presente",
+    "work2rol": "Desarrollador full-stack",
+    "work2desc": "Actualmente formo parte de un equipo ágil dedicado al desarrollo de aplicaciones web y microservicios utilizando Angular, Java con Quarkus y SQL. Implemento prácticas de CI/CD con Jenkins y GitLab, automatizando despliegues, pruebas y análisis de calidad con SonarQube.Trabajo con AWS y Docker, y participo activamente en todas las ceremonias de Scrum, asegurando la entrega continua de soluciones escalables y confiables.",
+    "work1time": "Junio 2021 - Noviembre 2022",
+    "work1rol": "Desarrollador full-stack",
+    "work1desc": "Participé en el desarrollo de Orbital, una aplicación de escritorio para la gestión de laboratorios bioquímicos. Contribuí al diseño y mantenimiento del backend con Java, Spring Boot, Hibernate y MySQL, y al desarrollo de interfaces con React. Colaboré en equipos de desarrollo utilizando SVN y Git, garantizando entregas estables y de calidad."
+  },
+  "projects": {
+    "name": "Proyectos",
+    "p1name": "Buscador de películas",
+    "p1desc": "Busca información sobre tu película.",
+    "p2name": "Portafolio",
+    "p2desc": "Portafolio web.",
+    "p3name": "Tic Tac Toe",
+    "p3desc": "Videojuego de Tic Tac Toe.",
+    "p4name": "Castle Defense",
+    "p4desc": "Videojuego de defensa de torres."
+  },
+  "skills": {
+    "name": "Habilidades",
+    "p1": "Lenguajes de Programación:",
+    "p2": "Frameworks y Librerias:",
+    "p3": "Herramientas y Tecnologías:",
+    "p4": "Base de Datos:",
+    "p5": "Testing y Calidad:",
+    "p6": "Metodologías:"
+  },
+   "education": {
+    "name": "Certificados",
+    "c1date": "Septiembre 2025",
+    "c1name": "Langchain y LMM:Desarrolla Aplicaciones de IA en Python",
+    "c2date": "Junio 2025",
+    "c2name": "GitHub Copilot - The Complete Guide",
+    "c3date": "Mayo 2025",
+    "c3name": "IA Generativa - Curso de fundamentos",
+    "c4date": "Junio 2024",
+    "c4name": "Docker, de principiante a experto",
+    "c5date": "Junio 2024",
+    "c5name": "Quarkus desarrollo ágil de microservicios, GraphQL y GraalVM",
+    "c6date": "Diciembre 2023",
+    "c6name": "Principios SOLID y Clean Code.Escribe código de calidad",
+    "c7date": "Noviembre 2023",
+    "c7name": "Componentes Angular - nivel PRO(Angular 2/4/5/6/7+)",
+    "c8date": "Enero 2023",
+    "c8name": "Productividad de FÓRMULA 1 para equipos físicos y virtuales",
+    "c9date": "Enero 2023",
+    "c9name": "Trabajar con OKRs: Conocimientos y Creencias Fundamentales"
+  }
+}
