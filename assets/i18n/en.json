@@ -37,10 +37,10 @@
   },
   "skills": {
     "name": "Skills",
-    "c1date": "Septiembre 2025",
-    "c1name": "Langchain y LMM:Desarrolla Aplicaciones de IA en Python",
-    "c2date": "Junio 2025",
-    "c2name": "GitHub Copilot - The Complete Guide",
+    "p1": "Programming Languages:",
+    "p2": "Frameworks & Libraries:",
+    "p3": "Tools & Technologies:",
+    "p4": "Databases:",
     "p5": "Testing & Quality Assurance:",
     "p6": "Methodologies:"
   },
