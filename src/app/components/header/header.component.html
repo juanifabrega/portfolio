@@ -1,11 +1,9 @@
 <!-- ========== HEADER ========== -->
-<header class="flex flex-wrap  md:justify-start md:flex-nowrap z-50 w-full bg-white border-b border-gray-200">
+<header class="sticky top-0 flex flex-wrap md:justify-start md:flex-nowrap z-50 w-full bg-white/80 backdrop-blur-sm border-b border-gray-200 dark:bg-neutral-900/80 dark:border-neutral-800">
   <nav class="relative max-w-[85rem] w-full mx-auto md:flex md:items-center md:justify-between md:gap-3 py-2 px-4 sm:px-6 lg:px-8">
     <div class="flex justify-between items-center gap-x-1">
-      <!--<a class="flex-none font-semibold text-xl text-black focus:outline-hidden focus:opacity-80" href="#" aria-label="Brand">Juan Fabrega</a>-->
-
       <!-- Collapse Button -->
-      <button type="button" class="hs-collapse-toggle md:hidden relative size-9 flex justify-center items-center font-medium text-sm rounded-lg border border-gray-200 text-gray-800 hover:bg-gray-100 focus:outline-hidden focus:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none" id="hs-header-base-collapse"  aria-expanded="false" aria-controls="hs-header-base" aria-label="Toggle navigation"  data-hs-collapse="#hs-header-base" >
+      <button type="button" class="hs-collapse-toggle md:hidden relative size-9 flex justify-center items-center font-medium text-sm rounded-lg border border-gray-200 text-gray-800 hover:bg-gray-100 focus:outline-hidden focus:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none dark:border-neutral-700 dark:text-gray-200 dark:hover:bg-neutral-800 dark:focus:bg-neutral-800" id="hs-header-base-collapse"  aria-expanded="false" aria-controls="hs-header-base" aria-label="Toggle navigation"  data-hs-collapse="#hs-header-base" >
         <svg class="hs-collapse-open:hidden size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" x2="21" y1="6" y2="6"/><line x1="3" x2="21" y1="12" y2="12"/><line x1="3" x2="21" y1="18" y2="18"/></svg>
         <svg class="hs-collapse-open:block shrink-0 hidden size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
         <span class="sr-only">Toggle navigation</span>
@@ -19,87 +17,105 @@
         <div class="py-2 md:py-0  flex flex-col md:flex-row md:items-center gap-0.5 md:gap-1">
           <div class="grow">
             <div class="flex flex-col md:flex-row md:justify-end md:items-center gap-0.5 md:gap-1">
-              <a class="p-2 flex items-center text-sm bg-gray-100 text-gray-800 hover:bg-gray-100 rounded-lg focus:outline-hidden focus:bg-gray-100" href="#home" aria-current="page">
+              <a class="p-2 flex items-center text-sm bg-teal-50 text-teal-700 hover:bg-teal-100 rounded-lg focus:outline-hidden focus:bg-teal-100 dark:bg-teal-900/30 dark:text-teal-300 dark:hover:bg-teal-900/50" href="#home" aria-current="page">
                 <svg class="shrink-0 size-4 me-3 md:me-2 block md:hidden" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8"/><path d="M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg>
                 {{ 'header.home' | transloco }}
               </a>
 
               <div class="my-2 md:my-0 md:mx-2">
-                <div class="w-full h-px md:w-px md:h-4 bg-gray-100 md:bg-gray-300"></div>
+                <div class="w-full h-px md:w-px md:h-4 bg-gray-100 md:bg-gray-300 dark:bg-neutral-700 md:dark:bg-neutral-700"></div>
               </div>
 
-              <a class="p-2 flex items-center text-sm text-gray-800 hover:bg-gray-100 rounded-lg focus:outline-hidden focus:bg-gray-100" href="#experience">
-                <!--<svg class="shrink-0 size-4 me-3 md:me-2 block md:hidden" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>-->
+              <a class="p-2 flex items-center text-sm text-gray-800 hover:bg-teal-50 hover:text-teal-700 rounded-lg focus:outline-hidden focus:bg-teal-50 dark:text-gray-200 dark:hover:bg-teal-900/30 dark:hover:text-teal-300" href="#experience">
                 <svg class="shrink-0 size-4 me-3 md:me-2 block md:hidden" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 12h.01"/><path d="M16 6V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/><path d="M22 13a18.15 18.15 0 0 1-20 0"/><rect width="20" height="14" x="2" y="6" rx="2"/></svg>
                 {{ 'header.experience' | transloco }}
               </a>
 
               <div class="my-2 md:my-0 md:mx-2">
-                <div class="w-full h-px md:w-px md:h-4 bg-gray-100 md:bg-gray-300"></div>
+                <div class="w-full h-px md:w-px md:h-4 bg-gray-100 md:bg-gray-300 dark:bg-neutral-700 md:dark:bg-neutral-700"></div>
               </div>
 
-              <a class="p-2 flex items-center text-sm text-gray-800 hover:bg-gray-100 rounded-lg focus:outline-hidden focus:bg-gray-100" href="#projects">
+              <a class="p-2 flex items-center text-sm text-gray-800 hover:bg-teal-50 hover:text-teal-700 rounded-lg focus:outline-hidden focus:bg-teal-50 dark:text-gray-200 dark:hover:bg-teal-900/30 dark:hover:text-teal-300" href="#projects">
                 <svg class="shrink-0 size-4 me-3 md:me-2 block md:hidden" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 20H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h3.9a2 2 0 0 1 1.69.9l.81 1.2a2 2 0 0 0 1.67.9H20a2 2 0 0 1 2 2v5"/><circle cx="13" cy="12" r="2"/><path d="M18 19c-2.8 0-5-2.2-5-5v8"/><circle cx="20" cy="19" r="2"/></svg>
                 {{ 'header.projects' | transloco }}
               </a>
 
               <div class="my-2 md:my-0 md:mx-2">
-                <div class="w-full h-px md:w-px md:h-4 bg-gray-100 md:bg-gray-300"></div>
+                <div class="w-full h-px md:w-px md:h-4 bg-gray-100 md:bg-gray-300 dark:bg-neutral-700 md:dark:bg-neutral-700"></div>
               </div>
 
-              <a class="p-2 flex items-center text-sm text-gray-800 hover:bg-gray-100 rounded-lg focus:outline-hidden focus:bg-gray-100" href="#skills">
-                <!--<svg class="shrink-0 size-4 me-3 md:me-2 block md:hidden" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 22h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16a2 2 0 0 1-2 2Zm0 0a2 2 0 0 1-2-2v-9c0-1.1.9-2 2-2h2"/><path d="M18 14h-8"/><path d="M15 18h-5"/><path d="M10 6h8v4h-8V6Z"/></svg>-->
+              <a class="p-2 flex items-center text-sm text-gray-800 hover:bg-teal-50 hover:text-teal-700 rounded-lg focus:outline-hidden focus:bg-teal-50 dark:text-gray-200 dark:hover:bg-teal-900/30 dark:hover:text-teal-300" href="#skills">
                 <svg class="shrink-0 size-4 me-3 md:me-2 block md:hidden" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.106-3.105c.32-.322.863-.22.983.218a6 6 0 0 1-8.259 7.057l-7.91 7.91a1 1 0 0 1-2.999-3l7.91-7.91a6 6 0 0 1 7.057-8.259c.438.12.54.662.219.984z"/></svg>
                 {{ 'header.skills' | transloco }}
               </a>
 
               <div class="my-2 md:my-0 md:mx-2">
-                <div class="w-full h-px md:w-px md:h-4 bg-gray-100 md:bg-gray-300"></div>
+                <div class="w-full h-px md:w-px md:h-4 bg-gray-100 md:bg-gray-300 dark:bg-neutral-700 md:dark:bg-neutral-700"></div>
               </div>
 
-              <a class="p-2 flex items-center text-sm text-gray-800 hover:bg-gray-100 rounded-lg focus:outline-hidden focus:bg-gray-100" href="#certificates">
+              <a class="p-2 flex items-center text-sm text-gray-800 hover:bg-teal-50 hover:text-teal-700 rounded-lg focus:outline-hidden focus:bg-teal-50 dark:text-gray-200 dark:hover:bg-teal-900/30 dark:hover:text-teal-300" href="#education">
+                <svg class="shrink-0 size-4 me-3 md:me-2 block md:hidden" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z"/><path d="M22 10v6"/><path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"/></svg>
+                {{ 'header.education' | transloco }}
+              </a>
+
+              <div class="my-2 md:my-0 md:mx-2">
+                <div class="w-full h-px md:w-px md:h-4 bg-gray-100 md:bg-gray-300 dark:bg-neutral-700 md:dark:bg-neutral-700"></div>
+              </div>
+
+              <a class="p-2 flex items-center text-sm text-gray-800 hover:bg-teal-50 hover:text-teal-700 rounded-lg focus:outline-hidden focus:bg-teal-50 dark:text-gray-200 dark:hover:bg-teal-900/30 dark:hover:text-teal-300" href="#certificates">
                 <svg class="shrink-0 size-4 me-3 md:me-2 block md:hidden" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 2v8l3-3 3 3V2"/><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20"/></svg>
                 {{ 'header.certificates' | transloco }}
               </a>
 
               <div class="my-2 md:my-0 md:mx-2">
-                <div class="w-full h-px md:w-px md:h-4 bg-gray-100 md:bg-gray-300"></div>
+                <div class="w-full h-px md:w-px md:h-4 bg-gray-100 md:bg-gray-300 dark:bg-neutral-700 md:dark:bg-neutral-700"></div>
               </div>
 
-              <a class="p-2 flex items-center text-sm text-gray-800 hover:bg-gray-100 rounded-lg focus:outline-hidden focus:bg-gray-100" href="#contact">
-                <!--<svg class="shrink-0 size-4 me-3 md:me-2 block md:hidden" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 2v8l3-3 3 3V2"/><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20"/></svg>-->
+              <a class="p-2 flex items-center text-sm text-gray-800 hover:bg-teal-50 hover:text-teal-700 rounded-lg focus:outline-hidden focus:bg-teal-50 dark:text-gray-200 dark:hover:bg-teal-900/30 dark:hover:text-teal-300" href="#contact">
                 <svg class="shrink-0 size-4 me-3 md:me-2 block md:hidden" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"  stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" /></svg>
                 {{ 'header.contact' | transloco }}
               </a>
 
               <div class="my-2 md:my-0 md:mx-2">
-                <div class="w-full h-px md:w-px md:h-4 bg-gray-100 md:bg-gray-300"></div>
+                <div class="w-full h-px md:w-px md:h-4 bg-gray-100 md:bg-gray-300 dark:bg-neutral-700 md:dark:bg-neutral-700"></div>
               </div>
 
-              <!-- Selector de idioma -->
-              <div class="flex flex-col md:flex-row md:items-center">                
-                <a
-                  (click)="changeLang('es')"
-                  class="inline-flex justify-center items-center gap-x-2 font-medium text-sm
-                        cursor-pointer rounded-lg px-3 py-2
-                        text-gray-500 hover:bg-gray-100
-                        transition"
-                  [ngClass]="activeLang === 'es' ? 'text-teal-600 font-semibold' : ''"
-                >Español</a>
-                <a
-                  (click)="changeLang('en')"
-                  class="inline-flex justify-center items-center gap-x-2 font-medium text-sm
-                        cursor-pointer rounded-lg px-3 py-2
-                        text-gray-500 hover:bg-gray-100
-                        transition"
-                  [ngClass]="activeLang === 'en' ? 'text-teal-600 font-semibold' : ''"
-                >English</a>
+              <!-- Selector de idioma + tema -->
+              <div class="flex items-center gap-3 my-2 md:my-0 md:ms-2">
+                <!-- Language segmented control -->
+                <div class="relative inline-flex items-center rounded-full bg-gray-100 dark:bg-neutral-800 p-1 text-sm font-medium">
+                  <span
+                    class="absolute inset-y-1 left-1 w-10 rounded-full bg-teal-600 transition-transform duration-300 ease-out"
+                    [ngClass]="activeLang === 'en' ? 'translate-x-10' : 'translate-x-0'"
+                  ></span>
+                  <a
+                    (click)="changeLang('es')"
+                    class="relative z-10 w-10 text-center cursor-pointer rounded-full px-3 py-1.5 transition-colors"
+                    [ngClass]="activeLang === 'es' ? 'text-white' : 'text-gray-500 dark:text-gray-300'"
+                  >ES</a>
+                  <a
+                    (click)="changeLang('en')"
+                    class="relative z-10 w-10 text-center cursor-pointer rounded-full px-3 py-1.5 transition-colors"
+                    [ngClass]="activeLang === 'en' ? 'text-white' : 'text-gray-500 dark:text-gray-300'"
+                  >EN</a>
+                </div>
+
+                <!-- Theme toggle -->
+                <button
+                  type="button"
+                  (click)="theme.toggle()"
+                  class="size-9 flex justify-center items-center rounded-full border border-gray-200 text-gray-600 hover:bg-gray-100 hover:text-teal-600 dark:border-neutral-700 dark:text-gray-300 dark:hover:bg-neutral-800 dark:hover:text-teal-400 transition"
+                  aria-label="Toggle theme"
+                >
+                  <svg *ngIf="!theme.isDark()" class="size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="m17.66 17.66 1.41 1.41"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="m6.34 17.66-1.41 1.41"/><path d="m19.07 4.93-1.41 1.41"/></svg>
+                  <svg *ngIf="theme.isDark()" class="size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>
+                </button>
               </div>
             </div>
           </div>
 
           <div class="my-2 md:my-0 md:mx-2">
-            <div class="w-full h-px md:w-px md:h-4 bg-gray-100 md:bg-gray-300"></div>
+            <div class="w-full h-px md:w-px md:h-4 bg-gray-100 md:bg-gray-300 dark:bg-neutral-700 md:dark:bg-neutral-700"></div>
           </div>
 
         </div>

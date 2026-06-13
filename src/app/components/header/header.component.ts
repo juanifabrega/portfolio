@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { TranslocoModule, TranslocoService } from '@ngneat/transloco';
+import { ThemeService } from '../../services/theme.service';
 
 @Component({
   selector: 'app-header',
@@ -15,7 +16,7 @@ export class HeaderComponent implements OnInit {
 
   activeLang!: string;
 
-  constructor(public transloco: TranslocoService) {}
+  constructor(public transloco: TranslocoService, public theme: ThemeService) {}
 
   ngOnInit(): void {
     this.activeLang = this.transloco.getActiveLang();

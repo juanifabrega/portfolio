@@ -1,148 +1,101 @@
 <br>
 <br>
-<h2 class="mb-5 text-lg font-medium text-gray-800 dark:text-neutral-800" id="skills">
+<h2 class="mb-5 flex items-center gap-2 text-lg font-semibold text-gray-900 dark:text-white" id="skills">
+  <span class="inline-block size-2 rounded-full bg-teal-500"></span>
   {{ 'skills.name' | transloco }}
 </h2>
 
 <!-- List -->
-<div class="space-y-3">
-  <dl class="flex flex-col sm:flex-row gap-1">
-    <dt class="min-w-40">
-      <span class="block text-sm text-gray-500">{{ 'skills.p1' | transloco }}</span>
+<div class="space-y-4">
+  <dl class="flex flex-col sm:flex-row sm:items-baseline gap-2">
+    <dt class="min-w-40 shrink-0">
+      <span class="block text-sm text-gray-500 dark:text-gray-400">{{ 'skills.p1' | transloco }}</span>
     </dt>
     <dd>
-      <ul>
-        <li class="me-1 inline-flex items-center text-sm text-gray-800">
-          Java,
-        </li>
-        <li class="me-1 inline-flex items-center text-sm text-gray-800">
-          Typescript,
-        </li>
-        <li class="me-1 inline-flex items-center text-sm text-gray-800">
-          Javascript,
-        </li>
-        <li class="me-1 inline-flex items-center text-sm text-gray-800">
-          HTML,
-        </li>
-        <li class="me-1 inline-flex items-center text-sm text-gray-800">
-          CSS
-        </li>       
+      <ul class="flex flex-wrap gap-2">
+        <li class="inline-flex items-center rounded-full bg-teal-50 dark:bg-teal-900/30 px-3 py-1 text-xs font-medium text-teal-700 dark:text-teal-300 ring-1 ring-inset ring-teal-600/20 dark:ring-teal-400/20">Java</li>
+        <li class="inline-flex items-center rounded-full bg-teal-50 dark:bg-teal-900/30 px-3 py-1 text-xs font-medium text-teal-700 dark:text-teal-300 ring-1 ring-inset ring-teal-600/20 dark:ring-teal-400/20">Typescript</li>
+        <li class="inline-flex items-center rounded-full bg-teal-50 dark:bg-teal-900/30 px-3 py-1 text-xs font-medium text-teal-700 dark:text-teal-300 ring-1 ring-inset ring-teal-600/20 dark:ring-teal-400/20">Javascript</li>
+        <li class="inline-flex items-center rounded-full bg-teal-50 dark:bg-teal-900/30 px-3 py-1 text-xs font-medium text-teal-700 dark:text-teal-300 ring-1 ring-inset ring-teal-600/20 dark:ring-teal-400/20">HTML</li>
+        <li class="inline-flex items-center rounded-full bg-teal-50 dark:bg-teal-900/30 px-3 py-1 text-xs font-medium text-teal-700 dark:text-teal-300 ring-1 ring-inset ring-teal-600/20 dark:ring-teal-400/20">CSS</li>
       </ul>
     </dd>
   </dl>
 
-  <dl class="flex flex-col sm:flex-row gap-1">
-    <dt class="min-w-40">
-      <span class="block text-sm text-gray-500">{{ 'skills.p2' | transloco }}</span>
+  <dl class="flex flex-col sm:flex-row sm:items-baseline gap-2">
+    <dt class="min-w-40 shrink-0">
+      <span class="block text-sm text-gray-500 dark:text-gray-400">{{ 'skills.p2' | transloco }}</span>
     </dt>
     <dd>
-      <ul>
-        <li class="me-1 inline-flex items-center text-sm text-gray-800">
-          Angular,
-        </li>
-        <li class="me-1 inline-flex items-center text-sm text-gray-800">
-          Quarkus,
-        </li>
-        <li class="me-1 inline-flex items-center text-sm text-gray-800">
-          Springboot,
-        </li>
-        <li class="me-1 inline-flex items-center text-sm text-gray-800">
-          Bootstrap,
-        </li>
-        <li class="me-1 inline-flex items-center text-sm text-gray-800">
-          Tailwind CSS
-        </li>
+      <ul class="flex flex-wrap gap-2">
+        <li class="inline-flex items-center rounded-full bg-teal-50 dark:bg-teal-900/30 px-3 py-1 text-xs font-medium text-teal-700 dark:text-teal-300 ring-1 ring-inset ring-teal-600/20 dark:ring-teal-400/20">Angular</li>
+        <li class="inline-flex items-center rounded-full bg-teal-50 dark:bg-teal-900/30 px-3 py-1 text-xs font-medium text-teal-700 dark:text-teal-300 ring-1 ring-inset ring-teal-600/20 dark:ring-teal-400/20">RxJS</li>
+        <li class="inline-flex items-center rounded-full bg-teal-50 dark:bg-teal-900/30 px-3 py-1 text-xs font-medium text-teal-700 dark:text-teal-300 ring-1 ring-inset ring-teal-600/20 dark:ring-teal-400/20">Quarkus</li>
+        <li class="inline-flex items-center rounded-full bg-teal-50 dark:bg-teal-900/30 px-3 py-1 text-xs font-medium text-teal-700 dark:text-teal-300 ring-1 ring-inset ring-teal-600/20 dark:ring-teal-400/20">Springboot</li>
+        <li class="inline-flex items-center rounded-full bg-teal-50 dark:bg-teal-900/30 px-3 py-1 text-xs font-medium text-teal-700 dark:text-teal-300 ring-1 ring-inset ring-teal-600/20 dark:ring-teal-400/20">Bootstrap</li>
+        <li class="inline-flex items-center rounded-full bg-teal-50 dark:bg-teal-900/30 px-3 py-1 text-xs font-medium text-teal-700 dark:text-teal-300 ring-1 ring-inset ring-teal-600/20 dark:ring-teal-400/20">Tailwind CSS</li>
       </ul>
     </dd>
   </dl>
 
-  <dl class="flex flex-col sm:flex-row gap-1">
-    <dt class="min-w-40 inline-flex">
-      <span class="block text-sm text-gray-500">{{ 'skills.p3' | transloco }}</span>
+  <dl class="flex flex-col sm:flex-row sm:items-baseline gap-2">
+    <dt class="min-w-40 shrink-0">
+      <span class="block text-sm text-gray-500 dark:text-gray-400">{{ 'skills.p3' | transloco }}</span>
     </dt>
     <dd>
-      <ul>
-        <li class="me-1 inline-flex items-center text-sm text-gray-800">
-            GIT,
-        </li>
-        <li class="me-1 inline-flex items-center text-sm text-gray-800">
-            Gitlab,
-        </li>
-        <li class="me-1 inline-flex items-center text-sm text-gray-800">
-            Github,
-        </li>
-        <li class="me-1 inline-flex items-center text-sm text-gray-800">
-            Docker,
-        </li>
-        <li class="me-1 inline-flex items-center text-sm text-gray-800">
-            Postman,
-        </li>
-        <li class="me-1 inline-flex items-center text-sm text-gray-800">
-            Elasticsearch,
-        </li>
-        <li class="me-1 inline-flex items-center text-sm text-gray-800">
-            Jenkins,
-        </li>
-        <li class="me-1 inline-flex items-center text-sm text-gray-800">
-            Jira,
-        </li>
-        <li class="me-1 inline-flex items-center text-sm text-gray-800">
-            Trello,
-        </li>
-        <li class="me-1 inline-flex items-center text-sm text-gray-800">
-            AWS
-        </li>
+      <ul class="flex flex-wrap gap-2">
+        <li class="inline-flex items-center rounded-full bg-teal-50 dark:bg-teal-900/30 px-3 py-1 text-xs font-medium text-teal-700 dark:text-teal-300 ring-1 ring-inset ring-teal-600/20 dark:ring-teal-400/20">GIT</li>
+        <li class="inline-flex items-center rounded-full bg-teal-50 dark:bg-teal-900/30 px-3 py-1 text-xs font-medium text-teal-700 dark:text-teal-300 ring-1 ring-inset ring-teal-600/20 dark:ring-teal-400/20">Gitlab</li>
+        <li class="inline-flex items-center rounded-full bg-teal-50 dark:bg-teal-900/30 px-3 py-1 text-xs font-medium text-teal-700 dark:text-teal-300 ring-1 ring-inset ring-teal-600/20 dark:ring-teal-400/20">Github</li>
+        <li class="inline-flex items-center rounded-full bg-teal-50 dark:bg-teal-900/30 px-3 py-1 text-xs font-medium text-teal-700 dark:text-teal-300 ring-1 ring-inset ring-teal-600/20 dark:ring-teal-400/20">Docker</li>
+        <li class="inline-flex items-center rounded-full bg-teal-50 dark:bg-teal-900/30 px-3 py-1 text-xs font-medium text-teal-700 dark:text-teal-300 ring-1 ring-inset ring-teal-600/20 dark:ring-teal-400/20">Postman</li>
+        <li class="inline-flex items-center rounded-full bg-teal-50 dark:bg-teal-900/30 px-3 py-1 text-xs font-medium text-teal-700 dark:text-teal-300 ring-1 ring-inset ring-teal-600/20 dark:ring-teal-400/20">Elasticsearch</li>
+        <li class="inline-flex items-center rounded-full bg-teal-50 dark:bg-teal-900/30 px-3 py-1 text-xs font-medium text-teal-700 dark:text-teal-300 ring-1 ring-inset ring-teal-600/20 dark:ring-teal-400/20">Jenkins</li>
+        <li class="inline-flex items-center rounded-full bg-teal-50 dark:bg-teal-900/30 px-3 py-1 text-xs font-medium text-teal-700 dark:text-teal-300 ring-1 ring-inset ring-teal-600/20 dark:ring-teal-400/20">Jira</li>
+        <li class="inline-flex items-center rounded-full bg-teal-50 dark:bg-teal-900/30 px-3 py-1 text-xs font-medium text-teal-700 dark:text-teal-300 ring-1 ring-inset ring-teal-600/20 dark:ring-teal-400/20">Trello</li>
+        <li class="inline-flex items-center rounded-full bg-teal-50 dark:bg-teal-900/30 px-3 py-1 text-xs font-medium text-teal-700 dark:text-teal-300 ring-1 ring-inset ring-teal-600/20 dark:ring-teal-400/20">AWS</li>
       </ul>
     </dd>
   </dl>
 
-  <dl class="flex flex-col sm:flex-row gap-1">
-    <dt class="min-w-40">
-      <span class="block text-sm text-gray-500">{{ 'skills.p4' | transloco }}</span>
+  <dl class="flex flex-col sm:flex-row sm:items-baseline gap-2">
+    <dt class="min-w-40 shrink-0">
+      <span class="block text-sm text-gray-500 dark:text-gray-400">{{ 'skills.p4' | transloco }}</span>
     </dt>
     <dd>
-      <ul>
-        <li class="me-1 inline-flex items-center text-sm text-gray-800">
-          MySQL,
-        </li>
-        <li class="me-1 inline-flex items-center text-sm text-gray-800">
-          PostgreSQL
-        </li>
+      <ul class="flex flex-wrap gap-2">
+        <li class="inline-flex items-center rounded-full bg-teal-50 dark:bg-teal-900/30 px-3 py-1 text-xs font-medium text-teal-700 dark:text-teal-300 ring-1 ring-inset ring-teal-600/20 dark:ring-teal-400/20">MySQL</li>
+        <li class="inline-flex items-center rounded-full bg-teal-50 dark:bg-teal-900/30 px-3 py-1 text-xs font-medium text-teal-700 dark:text-teal-300 ring-1 ring-inset ring-teal-600/20 dark:ring-teal-400/20">PostgreSQL</li>
       </ul>
     </dd>
   </dl>
 
-  <dl class="flex flex-col sm:flex-row gap-1">
-    <dt class="min-w-40">
-      <span class="block text-sm text-gray-500">{{ 'skills.p5' | transloco }}</span>
+  <dl class="flex flex-col sm:flex-row sm:items-baseline gap-2">
+    <dt class="min-w-40 shrink-0">
+      <span class="block text-sm text-gray-500 dark:text-gray-400">{{ 'skills.p5' | transloco }}</span>
     </dt>
     <dd>
-      <ul>
-        <li class="me-1 inline-flex items-center text-sm text-gray-800">
-          JUnit,
-        </li>
-        <li class="me-1 inline-flex items-center text-sm text-gray-800">
-          Mockito,
-        </li>
-        <li class="me-1 inline-flex items-center text-sm text-gray-800">
-          SonarQube
-        </li>
+      <ul class="flex flex-wrap gap-2">
+        <li class="inline-flex items-center rounded-full bg-teal-50 dark:bg-teal-900/30 px-3 py-1 text-xs font-medium text-teal-700 dark:text-teal-300 ring-1 ring-inset ring-teal-600/20 dark:ring-teal-400/20">JUnit</li>
+        <li class="inline-flex items-center rounded-full bg-teal-50 dark:bg-teal-900/30 px-3 py-1 text-xs font-medium text-teal-700 dark:text-teal-300 ring-1 ring-inset ring-teal-600/20 dark:ring-teal-400/20">Mockito</li>
+        <li class="inline-flex items-center rounded-full bg-teal-50 dark:bg-teal-900/30 px-3 py-1 text-xs font-medium text-teal-700 dark:text-teal-300 ring-1 ring-inset ring-teal-600/20 dark:ring-teal-400/20">SonarQube</li>
       </ul>
     </dd>
   </dl>
 
-  <dl class="flex flex-col sm:flex-row gap-1">
-    <dt class="min-w-40">
-      <span class="block text-sm text-gray-500">{{ 'skills.p6' | transloco }}</span>
+  <dl class="flex flex-col sm:flex-row sm:items-baseline gap-2">
+    <dt class="min-w-40 shrink-0">
+      <span class="block text-sm text-gray-500 dark:text-gray-400">{{ 'skills.p6' | transloco }}</span>
     </dt>
     <dd>
-      <ul>
-        <li class="me-1 inline-flex items-center text-sm text-gray-800">
-          Scrum,
-        </li>
-        <li class="me-1 inline-flex items-center text-sm text-gray-800">
-          CI/CD automation
-        </li>
+      <ul class="flex flex-wrap gap-2">
+        <li class="inline-flex items-center rounded-full bg-teal-50 dark:bg-teal-900/30 px-3 py-1 text-xs font-medium text-teal-700 dark:text-teal-300 ring-1 ring-inset ring-teal-600/20 dark:ring-teal-400/20">Scrum</li>
+        <li class="inline-flex items-center rounded-full bg-teal-50 dark:bg-teal-900/30 px-3 py-1 text-xs font-medium text-teal-700 dark:text-teal-300 ring-1 ring-inset ring-teal-600/20 dark:ring-teal-400/20">CI/CD automation</li>
+        <li class="inline-flex items-center rounded-full bg-teal-50 dark:bg-teal-900/30 px-3 py-1 text-xs font-medium text-teal-700 dark:text-teal-300 ring-1 ring-inset ring-teal-600/20 dark:ring-teal-400/20">SOLID</li>
+        <li class="inline-flex items-center rounded-full bg-teal-50 dark:bg-teal-900/30 px-3 py-1 text-xs font-medium text-teal-700 dark:text-teal-300 ring-1 ring-inset ring-teal-600/20 dark:ring-teal-400/20">Clean Architecture</li>
+        <li class="inline-flex items-center rounded-full bg-teal-50 dark:bg-teal-900/30 px-3 py-1 text-xs font-medium text-teal-700 dark:text-teal-300 ring-1 ring-inset ring-teal-600/20 dark:ring-teal-400/20">TDD</li>
+        <li class="inline-flex items-center rounded-full bg-teal-50 dark:bg-teal-900/30 px-3 py-1 text-xs font-medium text-teal-700 dark:text-teal-300 ring-1 ring-inset ring-teal-600/20 dark:ring-teal-400/20">Microservices</li>
+        <li class="inline-flex items-center rounded-full bg-teal-50 dark:bg-teal-900/30 px-3 py-1 text-xs font-medium text-teal-700 dark:text-teal-300 ring-1 ring-inset ring-teal-600/20 dark:ring-teal-400/20">REST/OpenAPI</li>
       </ul>
     </dd>
   </dl>

@@ -2,3 +2,13 @@
 @import "tailwindcss";
 @import "preline/variants.css";
 @plugin "@tailwindcss/forms";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-white text-gray-800 transition-colors duration-300 dark:bg-neutral-900 dark:text-gray-200;
+}
