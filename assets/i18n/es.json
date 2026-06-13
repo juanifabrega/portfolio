@@ -4,13 +4,14 @@
     "experience": "Experiencia",
     "projects": "Proyectos",
     "skills": "Habilidades",
+    "education": "Educación",
     "certificates": "Certificados",
     "contact": "Contacto"
   },
   "profile": {
     "name": "Juan Fabrega",
     "work": "Desarrollador de software",
-    "p1": "Full-Stack Developer con experiencia en Angular, Java, Quarkus y Spring Boot. Desarrollo soluciones enfocadas en escalabilidad, mantenibilidad y rendimiento, aplicando buenas prácticas de arquitectura y trabajo ágil",
+    "p1": "Full-Stack Developer con +4 años de experiencia en Angular, Java, Quarkus y Spring Boot. Desarrollo soluciones enfocadas en escalabilidad, mantenibilidad y rendimiento, aplicando buenas prácticas de arquitectura y trabajo ágil.",
     "p2": "Trabajo con SQL, CI/CD, testing y herramientas modernas para asegurar calidad en cada etapa del desarrollo.",
     "dowloand": "Descargar CV",
     "linkCV": "https://drive.google.com/file/d/1yrrPU3YlRrScZ34VzAeGuhFFzH6TvvsC/view?usp=sharing"
@@ -42,7 +43,16 @@
     "p3": "Herramientas y Tecnologías:",
     "p4": "Base de Datos:",
     "p5": "Testing y Calidad:",
-    "p6": "Metodologías:"
+    "p6": "Metodologías y Arquitectura:"
+  },
+  "academicEducation": {
+    "name": "Educación",
+    "degree1name": "Licenciatura en Ciencias de la Computación",
+    "degree1institution": "Universidad Nacional del Sur",
+    "degree1date": "2018 - Presente (cursando 4to año)",
+    "degree2name": "Técnico Superior en Computación con Orientación Administrativa",
+    "degree2institution": "Universidad Nacional del Sur",
+    "degree2date": "2015 - 2018"
   },
    "education": {
     "name": "Certificados",
