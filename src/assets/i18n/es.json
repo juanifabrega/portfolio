@@ -10,8 +10,8 @@
   },
   "profile": {
     "name": "Juan Fabrega",
-    "work": "Desarrollador de software",
-    "p1": "Full-Stack Developer con +4 años de experiencia en Angular, Java, Quarkus y Spring Boot. Desarrollo soluciones enfocadas en escalabilidad, mantenibilidad y rendimiento, aplicando buenas prácticas de arquitectura y trabajo ágil.",
+    "work": "Desarrollador de software full-stack",
+    "p1": "Full-Stack Developer con +5 años de experiencia en Angular, Java, Quarkus y Spring Boot. Desarrollo soluciones enfocadas en escalabilidad, mantenibilidad y rendimiento, aplicando buenas prácticas de arquitectura y trabajo ágil.Incorporo herramientas de IA como Claude Code para automatizar tareas de desarrollo y acelerar la entrega.",
     "p2": "Trabajo con SQL, CI/CD, testing y herramientas modernas para asegurar calidad en cada etapa del desarrollo.",
     "dowloand": "Descargar CV",
     "linkCV": "https://drive.google.com/file/d/1yrrPU3YlRrScZ34VzAeGuhFFzH6TvvsC/view?usp=sharing"
@@ -19,7 +19,7 @@
   "experience": {
     "experience": "Experiencia",
     "work2time": "Noviembre 2022 - Presente",
-    "work2rol": "Desarrollador full-stack",
+    "work2rol": "Desarrollador de software",
     "work2desc": "Actualmente formo parte de un equipo ágil dedicado al desarrollo de aplicaciones web y microservicios utilizando Angular, Java con Quarkus y SQL. Implemento prácticas de CI/CD con Jenkins y GitLab, automatizando despliegues, pruebas y análisis de calidad con SonarQube.Trabajo con AWS y Docker, y participo activamente en todas las ceremonias de Scrum, asegurando la entrega continua de soluciones escalables y confiables.",
     "work1time": "Junio 2021 - Noviembre 2022",
     "work1rol": "Desarrollador full-stack",
@@ -57,7 +57,7 @@
    "education": {
     "name": "Certificados",
     "c1date": "Septiembre 2025",
-    "c1name": "Langchain y LMM:Desarrolla Aplicaciones de IA en Python",
+    "c1name": "Langchain y LLM:Desarrolla Aplicaciones de IA en Python",
     "c2date": "Junio 2025",
     "c2name": "GitHub Copilot - The Complete Guide",
     "c3date": "Mayo 2025",
