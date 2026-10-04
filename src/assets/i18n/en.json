@@ -11,7 +11,7 @@
   "profile": {
     "name": "Juan Fabrega",
     "work": "Full-Stack Developer",
-    "p1": "Full-Stack Developer with +5 years of experience in Angular, Java, Quarkus, and Spring Boot. I build solutions focused on scalability, maintainability, and performance, applying architecture best practices and agile workflows.I incorporate AI tools like Claude Code to automate development tasks and accelerate delivery.",
+    "p1": "Full-Stack Developer with +5 years of experience in Angular, Java, Quarkus, and Spring Boot. I build solutions focused on scalability, maintainability, and performance, applying architecture best practices and agile workflows.Leverages AI tools such as Claude Code to automate development tasks and accelerate delivery.",
     "p2": "I work with SQL, CI/CD, testing, and modern tools to ensure quality at every stage of development.",
     "dowloand": "Download CV",
     "linkCV": "https://drive.google.com/file/d/1gBR3MKO_nFZX_P62kJvNdDli_FZRbAWe/view?usp=sharing"
@@ -77,6 +77,10 @@
     "c10date": "December 2025",
     "c10name": "Masterclass: Master Lambda Expressions and Streams in Java",
     "c11date": "December 2025",
-    "c11name": "OWASP, web security"
+    "c11name": "OWASP, web security",
+    "c12date": "July 2026",
+    "c12name": "Java: Spring Boot – The Definitive Guide",
+    "c13date": "July 2026",
+    "c13name": "Amazon AWS. Curso básico de Amazon AWS. Aprende desde cero"
   }
 }
